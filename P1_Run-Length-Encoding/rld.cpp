@@ -21,7 +21,7 @@ int main() {
                 }
                 i += 4;
             }
-            else if (str[i] == ' ' && str[i+1] == ' ') {
+            else if (str[i] == ' ' && str[i+1] == ' ') { // for single space in input
                 cout << str[i];
                 i++;
             }
